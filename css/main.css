@@ -54,3 +54,14 @@ h3 {
   font-size: 1.75rem;
   line-height: 1.25;
 }
+
+footer nav a {
+  display: inline-block;
+  position: relative;
+}
+
+footer nav a:not(:last-child):after {
+  content: '•';
+  margin-left: 5px;
+  color: black;
+}
