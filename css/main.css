@@ -78,6 +78,7 @@ h1 span {
 
 h2 {
   font-size: 2rem;
+  line-height: 1.2;
 }
 
 h3 {
@@ -94,41 +95,67 @@ ul {
   line-height: 1.25;
 }
 
-header {
-  margin-top: 9rem;
-}
-
-section {
-  padding: 2rem;
+.event {
+  position: relative;
   border: 5px solid black;
+  margin-bottom: 1.25rem;
 }
 
-section h2 {
+.event h2 {
   margin-top: 0;
 }
 
-section p {
+.event p {
   margin: 0;
 }
 
-.past-event {
-  position: relative;
+.event-description {
+  padding: 1rem;
+  color: white;
+  background-color: black;
 }
 
-.past-event-badge {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0 1rem;
-  background: black;
+.event-description:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.event-description-inner {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.event-description a {
   color: white;
-  font-family: "adelle-sans", Helvetica, Arial, sans-serif;
-  line-height: 2;
+}
+
+.event-past-badge {
+  display: inline-block;
+  margin-bottom: .5rem;
+  padding: .5rem 1rem;
+  background: red;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
+.event-past-badge,
+.photo-credit {
+  font-family: "adelle-sans", Helvetica, Arial, sans-serif;
+}
+
+.photo-credit {
+  position: absolute;
+  border: none;
+  color: white;
+  font-size: .8rem;
+  opacity: .8;
+}
+
 footer {
-  margin-top: 3rem;
+  margin: 3rem 0;
   color: #333;
 }
 
@@ -146,8 +173,62 @@ footer nav a {
     padding: 0 2rem;
   }
 
-  section {
-    margin-bottom: 1.25rem;
+  header {
+    margin-top: 9rem;
+  }
+
+  .event img {
+    max-width: 100%;
+  }
+
+  .event-description {
+    margin-top: -.5rem;
+  }
+
+  .photo-credit {
+    top: .25rem;
+    left: .5rem;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+
+  .container {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-top: 11rem;
+  }
+
+  .lead {
+    margin-bottom: 4rem;
+  }
+
+  .event {
+    height: 250px;
+    overflow: hidden;
+  }
+
+  .event img,
+  .event-description {
+    float: left;
+  }
+
+  .event img {
+    width: 60%;
+  }
+
+  .event-description {
+    width: 40%;
+    height: 100%;
+  }
+
+  .photo-credit {
+    bottom: .25rem;
+    left: .5rem;
   }
 
 }
