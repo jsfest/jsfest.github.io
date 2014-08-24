@@ -111,6 +111,22 @@ section p {
   margin: 0;
 }
 
+.past-event {
+  position: relative;
+}
+
+.past-event-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1rem;
+  background: black;
+  color: white;
+  font-family: "adelle-sans", Helvetica, Arial, sans-serif;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
 footer {
   margin-top: 3rem;
   color: #333;
