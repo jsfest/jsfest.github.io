@@ -1,0 +1,43 @@
+/*===================================================================
+* 
+* JSFest.com
+* Made by the community, for the community
+* Created by @mikeal
+* Designed and coded by @fox
+*
+* ❤︎ ✌︎
+*
+===================================================================*/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font: 500 1.125rem/1.5 "ff-meta-serif-web-pro", Georgia, Times, serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::-moz-selection {
+  background: #FFEB00;
+}
+
+::selection {
+  background: #FFEB00;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "adelle-sans", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+
+footer {
+  font-size: 0.875rem;
+  text-align: center;
+}
