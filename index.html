@@ -2,106 +2,93 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>JSFest</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0  maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta name="description" content="A celebration of JavaScript. One city at a time.">
-    <meta name="author" content="Mikeal Rogers">
+    <meta name="author" content="Mikeal Rogers, Karolina Szczur">
 
-    <link rel="icon" type="image/png"  href="favicon.png">
+    <title>JSFest - A celebration of JavaScript. One city at a time.</title>
 
-    <link rel="image_src" href="jsfest-small.png" / >
+    <link rel="icon" type="image/png" href="favicon.png">
 
-    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
-    <meta name="description" content="A celebration of JavaScript. One city at a time." />
-    <style>
-    a, a:visited {
-      text-decoration: none;
-    }
-    body {
-      padding: 0 0 0 0;
-      margin: 0 0 0 0;
-    }
-    div.seperator, div.event {
-      width:100%;
-      margin: 0 0 0 0;
-      padding-top:5px;
-      padding-bottom:5px;
-      text-align:center;
-      vertical-align:middle;
-      background: #7FD3FF;
-    }
-    div.event {
-      height:280px;
+    <script src="//use.typekit.net/okx6joz.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
 
-      box-sizing: border-box;
-      color: #FFF;
-      font-family: 'Playball',cursive;
-      font-size: 72px;
-      font-weight: 500;
-      line-height: 72px;
-      text-shadow: #303030 -1px 0px 0px, #303030 0px -1px 0px, rgba(255, 255, 255, 0.1) 1px 0px 0px, rgba(255, 255, 255, 0.1) 0px 1px 0px, #303030 -1px -1px 0px, rgba(255, 255, 255, 0.1) 1px 1px 0px;
-      padding-top:100px;
-    }
-    div.seperator {
-      box-sizing: border-box;
-      color: #FFF;
-      font-family: 'Playball',cursive;
-      font-size: 56px;
-      font-weight: 500;
-      line-height: 72px;
-      text-shadow: #303030 -1px 0px 0px, #303030 0px -1px 0px, rgba(255, 255, 255, 0.1) 1px 0px 0px, rgba(255, 255, 255, 0.1) 0px 1px 0px, #303030 -1px -1px 0px, rgba(255, 255, 255, 0.1) 1px 1px 0px;
-    }
-
-    span.event {
-      vertical-align:middle;
-    }
-    div.sf2014 {
-      background: url("San_Francisco-cmyk-half.jpg") no-repeat;
-      background-size: 100%;
-    }
-    div.berlin2014 {
-      background: url("Berlin-Ville-cmyk.jpg") no-repeat;
-      background-size: 100%;
-    }
-    div.oakland2014 {
-      background: url("Oakland-cmyk-half.jpg") no-repeat;
-      background-size: 100%;
-    }
-    div.header {
-      text-align:center;
-      box-sizing: border-box;
-      color: #FFF;
-      font-family: 'Playball',cursive;
-      font-size: 50px;
-      font-weight: 500;
-      line-height: 72px;
-      text-shadow: #303030 -1px 0px 0px, #303030 0px -1px 0px, rgba(255, 255, 255, 0.1) 1px 0px 0px, rgba(255, 255, 255, 0.1) 0px 1px 0px, #303030 -1px -1px 0px, rgba(255, 255, 255, 0.1) 1px 1px 0px;
-      background: #FF00CC;
-      background-size: 100%;
-    }
-    div.title {
-      padding-top: 10px;
-      font-size: 90px;
-    }
-
-    </style>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
+
   <body>
-    <div class="header">
-      <div class="title">JSFest</div>
-      <div class="subtitle">A celebration of JavaScript.</div>
-      <div class="subtitle">Presented by the Community.</div>
-      <div class="subtitle">One city at a time.</div>
+
+    <div class="container">
+      <header role="banner">
+        <h1><span>JS</span>Fest</h1>
+        <p class="lead">A celebration of JavaScript presented by the community. One city at the time.</p>
+      </header>
+
+      <div class="cf" role="main">
+
+        <section class="event cf">
+          <img src="../img/berlin.jpg" alt="Berlin" />
+          <a href="https://www.flickr.com/photos/lukema/8742498323" class="photo-credit">Photo by Luke Ma</a>
+          <div class="event-description">
+           <div class="event-description-inner">
+              <h2>Berlin</h2>
+              <p>9&ndash;15 September 2014</p>
+              <p><a href="http://jsfest.berlin/">jsfest.berlin</a></p>
+            </div>
+          </div>
+          <!-- event-description -->
+        </section>
+        <!-- event -->
+
+        <section class="event cf">
+          <img src="../img/oakland.jpg" alt="Oakland" />
+          <a href="https://www.flickr.com/photos/decaseconds/10388465086" class="photo-credit">Photo by Decaseconds</a>
+          <div class="event-description">
+            <div class="event-description-inner">
+              <h2>Oakland</h2>
+              <p>TBA, Fall 2014</p>
+            </div>
+          </div>
+          <!-- event-description -->
+        </section>
+        <!-- event -->
+
+        <section class="event cf">
+          <img src="../img/sf.jpg" alt="San Francisco" />
+          <a href="https://www.flickr.com/photos/davidyuweb/8770813474" class="photo-credit">Photo by David Yu</a>
+          <div class="event-description">
+            <div class="event-description-inner">
+              <h2>San Francisco</h2>
+              <div class="event-past-badge">Past Event</div>
+              <p>6&ndash;16 March 2014</p>
+            </div>
+          </div>
+          <!-- event-description -->
+        </section>
+        <!-- event -->
+
+      </div>
+      <!-- main -->
+
+      <footer role="contentinfo">
+        <nav role="navigation">
+          <ul>
+            <li><a href="https://github.com/mikeal/jsfest">Github</a> •</li>
+            <li><a href="https://github.com/mikeal/jsfest/graphs/contributors">Contributors</a> •</li>
+            <li><a href="https://github.com/mikeal/jsfest/issues">Issues</a></li>
+          </ul>
+        </nav>
+
+        <p>From the community, for the community. Born in 2014.</p>
+        <p><a href="https://twitter.com/JavaScriptFest">@javascriptfest</a></p>
+      </footer>
+
     </div>
-    <div class="seperator">Upcoming</div>
-    <a href="http://jsfest.berlin/">
-      <div class="event berlin2014">Berlin September 2014</div>
-    </a>
-    <div class="seperator">Future</div>
-    <div class="event oakland2014">Oakland Fall 2014</div>
-    <div class="seperator">Past</div>
-    <a href="http://2014.sf.jsfest.com/">
-      <div class="event sf2014">San Francisco March 2014</div>
-    </a>
+    <!-- container -->
+
   </body>
+
 </html>
