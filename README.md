@@ -1,4 +1,4 @@
-# [jsfest.com](http://http://jsfest.com/)
+# [jsfest.com](http://www.jsfest.com/)
 
 This is a website for JSFest.
 
